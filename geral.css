@@ -1,25 +1,24 @@
 /*Criando o topo do site*/
 
-#topo {
-    width: 100%;
-    height: 120px;
-    border: 1px solid green;
-    background-color: #1673be;
-    color: #ffffff;
+#topo{
+    width:100%;
+    height:120px;
+    border:1px solid green;
+    background-color:#1673be;
+    color:#ffffff ;
     text-transform: uppercase;
 
 }
 
-nav {
+nav{
 
-    position: absolute;
-    top: 30px;
-    left: 600px;
+   position: absolute;
+   top:30px;
+   left:600px;
 }
-
-nav img {
-    width: 51px;
-    height: 51px;
+nav img{
+    width:51px;
+    height:51px;
 }
 
 
@@ -27,8 +26,8 @@ nav img {
 
 /*Exemplo de CSS Externo*/
 
-body {
-    background-color: cornsilk;
+body{
+    background-color:cornsilk;
 }
 
 
@@ -36,38 +35,35 @@ body {
 
 /*filho*/
 
-ul li {
-
-    display: inline;
-    padding-left: 80px;
-    width: 50px;
-    height: 50px;
-
-
+ul li{
+   
+     display: inline;
+     padding-left: 80px;
+     width:50px;
+     height:50px;
+   
+     
 }
-
 /*neto*/
-ul li a {
-
+ul li a{
+  
     text-decoration: none;
-    color: black;
-
-
+    color:black;
+   
+   
+}
+ul li a:hover{    
+    background-color: coral;  
+  
 }
 
-ul li a:hover {
-    background-color: coral;
-
+#principal{
+    width:100%;
+    height:500px;
+    border:2px solid red;
 }
-
-#principal {
-    width: 100%;
-    height: 500px;
-    border: 2px solid red;
-}
-
-#rodape {
-    width: 100%;
-    height: 50px;
-    border: 2px solid red;
+#rodape{
+    width:100%;
+    height:50px;
+    border:2px solid red;
 }
